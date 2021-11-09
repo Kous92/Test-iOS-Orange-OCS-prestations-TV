@@ -1,0 +1,6 @@
+framework module Pods_Test_Orange_OCS_iOSTests {
+  umbrella header "Pods-Test Orange OCS iOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

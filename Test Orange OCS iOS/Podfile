@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Test Orange OCS iOS' do
+  source 'https://github.com/CocoaPods/Specs.git'
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Test Orange OCS iOS
+  pod 'Alamofire', '~> 5.4'
+  pod 'Kingfisher', '~> 6.0'
+
+  target 'Test Orange OCS iOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Test Orange OCS iOSUITests' do
+    # Pods for testing
+  end
+
+end

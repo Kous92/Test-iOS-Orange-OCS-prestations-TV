@@ -1,0 +1,886 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3545BA50222B1AFCE0E54C99 /* Pods_Test_Orange_OCS_iOS_Test_Orange_OCS_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B459533C5458FC62C4A46990 /* Pods_Test_Orange_OCS_iOS_Test_Orange_OCS_iOSUITests.framework */; };
+		4B1703ED26F2A57200FF0982 /* ViewModelCallbackType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1703EC26F2A57200FF0982 /* ViewModelCallbackType.swift */; };
+		4B67ACE026EE4C720094AF95 /* ProgramCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67ACDF26EE4C720094AF95 /* ProgramCollectionViewCell.swift */; };
+		4B7B6BAE26EE8E3100AB3A37 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7B6BAB26EE8E3100AB3A37 /* CustomButton.swift */; };
+		4B7B6BAF26EE8E3100AB3A37 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7B6BAC26EE8E3100AB3A37 /* CustomView.swift */; };
+		4B7B6BB026EE8E3100AB3A37 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7B6BAD26EE8E3100AB3A37 /* CustomImageView.swift */; };
+		4B7F810A26F8B0A80080B88D /* dataProgramTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B7F810926F8B0A80080B88D /* dataProgramTest.json */; };
+		4B7F810B26F8B0A80080B88D /* dataProgramTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B7F810926F8B0A80080B88D /* dataProgramTest.json */; };
+		4B7F810C26F8B0A80080B88D /* dataProgramTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B7F810926F8B0A80080B88D /* dataProgramTest.json */; };
+		4B7F810E26F8B30D0080B88D /* dataProgramDetailsTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B7F810D26F8B30D0080B88D /* dataProgramDetailsTest.json */; };
+		4B7F810F26F8B30D0080B88D /* dataProgramDetailsTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B7F810D26F8B30D0080B88D /* dataProgramDetailsTest.json */; };
+		4B7F811026F8B30D0080B88D /* dataProgramDetailsTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B7F810D26F8B30D0080B88D /* dataProgramDetailsTest.json */; };
+		4B883C5226E634FC00197C79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B883C5126E634FC00197C79 /* AppDelegate.swift */; };
+		4B883C5426E634FC00197C79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B883C5326E634FC00197C79 /* SceneDelegate.swift */; };
+		4B883C5626E634FC00197C79 /* ProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B883C5526E634FC00197C79 /* ProgramViewController.swift */; };
+		4B883C5926E634FC00197C79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B883C5726E634FC00197C79 /* Main.storyboard */; };
+		4B883C5B26E634FD00197C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B883C5A26E634FD00197C79 /* Assets.xcassets */; };
+		4B883C5E26E634FD00197C79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B883C5C26E634FD00197C79 /* LaunchScreen.storyboard */; };
+		4B883C6926E634FD00197C79 /* Test_Orange_OCS_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B883C6826E634FD00197C79 /* Test_Orange_OCS_iOSTests.swift */; };
+		4B883C7426E634FD00197C79 /* Test_Orange_OCS_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B883C7326E634FD00197C79 /* Test_Orange_OCS_iOSUITests.swift */; };
+		4B8E1B5326EE9AC200D1E783 /* ProgramCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E1B5226EE9AC200D1E783 /* ProgramCellViewModel.swift */; };
+		4B8E1B5526EE9CA600D1E783 /* ProgramViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E1B5426EE9CA600D1E783 /* ProgramViewModel.swift */; };
+		4BA6574426E7BCDD00D60747 /* ProgramDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA6574326E7BCDD00D60747 /* ProgramDetailViewController.swift */; };
+		4BEC2FFE26ED6A210094A201 /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEC2FFD26ED6A210094A201 /* Program.swift */; };
+		4BEC300126ED6BE60094A201 /* OCSAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEC300026ED6BE60094A201 /* OCSAPIService.swift */; };
+		4BEC300326ED6CC40094A201 /* OCSAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEC300226ED6CC40094A201 /* OCSAPIError.swift */; };
+		4BEC300526ED74F90094A201 /* ProgramDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEC300426ED74F90094A201 /* ProgramDetail.swift */; };
+		4BF6401A26F2278000E8279A /* ProgramDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6401926F2278000E8279A /* ProgramDetailViewModel.swift */; };
+		4BFE1AE526F7F6DB0028D2C0 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFE1AE426F7F6DB0028D2C0 /* APIService.swift */; };
+		4BFE1AE726F7F6F20028D2C0 /* OCSMockAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFE1AE626F7F6F20028D2C0 /* OCSMockAPIService.swift */; };
+		E67579A488E7B864F808FE66 /* Pods_Test_Orange_OCS_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FE8498078DABC1A338B753 /* Pods_Test_Orange_OCS_iOS.framework */; };
+		F78701EC8CAFB786034B3AB3 /* Pods_Test_Orange_OCS_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A25F433C0DECD1DD65EB3A /* Pods_Test_Orange_OCS_iOSTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B883C6526E634FD00197C79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B883C4626E634FC00197C79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B883C4D26E634FC00197C79;
+			remoteInfo = "Test Orange OCS iOS";
+		};
+		4B883C7026E634FD00197C79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B883C4626E634FC00197C79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B883C4D26E634FC00197C79;
+			remoteInfo = "Test Orange OCS iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09BA15A78D6C2746BB8D9148 /* Pods-Test Orange OCS iOS-Test Orange OCS iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Orange OCS iOS-Test Orange OCS iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-Test Orange OCS iOS-Test Orange OCS iOSUITests/Pods-Test Orange OCS iOS-Test Orange OCS iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4B1703EC26F2A57200FF0982 /* ViewModelCallbackType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelCallbackType.swift; sourceTree = "<group>"; };
+		4B67ACDF26EE4C720094AF95 /* ProgramCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramCollectionViewCell.swift; sourceTree = "<group>"; };
+		4B7B6BAB26EE8E3100AB3A37 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		4B7B6BAC26EE8E3100AB3A37 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		4B7B6BAD26EE8E3100AB3A37 /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		4B7F810926F8B0A80080B88D /* dataProgramTest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dataProgramTest.json; sourceTree = "<group>"; };
+		4B7F810D26F8B30D0080B88D /* dataProgramDetailsTest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dataProgramDetailsTest.json; sourceTree = "<group>"; };
+		4B883C4E26E634FC00197C79 /* Test Orange OCS iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Orange OCS iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B883C5126E634FC00197C79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B883C5326E634FC00197C79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4B883C5526E634FC00197C79 /* ProgramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramViewController.swift; sourceTree = "<group>"; };
+		4B883C5826E634FC00197C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B883C5A26E634FD00197C79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B883C5D26E634FD00197C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B883C5F26E634FD00197C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B883C6426E634FD00197C79 /* Test Orange OCS iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test Orange OCS iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B883C6826E634FD00197C79 /* Test_Orange_OCS_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_Orange_OCS_iOSTests.swift; sourceTree = "<group>"; };
+		4B883C6A26E634FD00197C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B883C6F26E634FD00197C79 /* Test Orange OCS iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test Orange OCS iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B883C7326E634FD00197C79 /* Test_Orange_OCS_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_Orange_OCS_iOSUITests.swift; sourceTree = "<group>"; };
+		4B883C7526E634FD00197C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8E1B5226EE9AC200D1E783 /* ProgramCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramCellViewModel.swift; sourceTree = "<group>"; };
+		4B8E1B5426EE9CA600D1E783 /* ProgramViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramViewModel.swift; sourceTree = "<group>"; };
+		4BA6574326E7BCDD00D60747 /* ProgramDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramDetailViewController.swift; sourceTree = "<group>"; };
+		4BEC2FFD26ED6A210094A201 /* Program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
+		4BEC300026ED6BE60094A201 /* OCSAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCSAPIService.swift; sourceTree = "<group>"; };
+		4BEC300226ED6CC40094A201 /* OCSAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCSAPIError.swift; sourceTree = "<group>"; };
+		4BEC300426ED74F90094A201 /* ProgramDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramDetail.swift; sourceTree = "<group>"; };
+		4BF6401926F2278000E8279A /* ProgramDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramDetailViewModel.swift; sourceTree = "<group>"; };
+		4BFE1AE426F7F6DB0028D2C0 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		4BFE1AE626F7F6F20028D2C0 /* OCSMockAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCSMockAPIService.swift; sourceTree = "<group>"; };
+		8377399B498D4ABDC27C6411 /* Pods-Test Orange OCS iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Orange OCS iOS.debug.xcconfig"; path = "Target Support Files/Pods-Test Orange OCS iOS/Pods-Test Orange OCS iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		933834743B4A0F3651E22D2C /* Pods-Test Orange OCS iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Orange OCS iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Test Orange OCS iOSTests/Pods-Test Orange OCS iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		94FE8498078DABC1A338B753 /* Pods_Test_Orange_OCS_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_Orange_OCS_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B459533C5458FC62C4A46990 /* Pods_Test_Orange_OCS_iOS_Test_Orange_OCS_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_Orange_OCS_iOS_Test_Orange_OCS_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A25F433C0DECD1DD65EB3A /* Pods_Test_Orange_OCS_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_Orange_OCS_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F266556A4C2A6F159BF1E9ED /* Pods-Test Orange OCS iOS-Test Orange OCS iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Orange OCS iOS-Test Orange OCS iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-Test Orange OCS iOS-Test Orange OCS iOSUITests/Pods-Test Orange OCS iOS-Test Orange OCS iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8B099EB2B97BFA513AC554D /* Pods-Test Orange OCS iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Orange OCS iOSTests.release.xcconfig"; path = "Target Support Files/Pods-Test Orange OCS iOSTests/Pods-Test Orange OCS iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC799C077BD932AB9E75C2F3 /* Pods-Test Orange OCS iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Orange OCS iOS.release.xcconfig"; path = "Target Support Files/Pods-Test Orange OCS iOS/Pods-Test Orange OCS iOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B883C4B26E634FC00197C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E67579A488E7B864F808FE66 /* Pods_Test_Orange_OCS_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B883C6126E634FD00197C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78701EC8CAFB786034B3AB3 /* Pods_Test_Orange_OCS_iOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B883C6C26E634FD00197C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3545BA50222B1AFCE0E54C99 /* Pods_Test_Orange_OCS_iOS_Test_Orange_OCS_iOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10969FB6AAB3350D55A07196 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8377399B498D4ABDC27C6411 /* Pods-Test Orange OCS iOS.debug.xcconfig */,
+				FC799C077BD932AB9E75C2F3 /* Pods-Test Orange OCS iOS.release.xcconfig */,
+				F266556A4C2A6F159BF1E9ED /* Pods-Test Orange OCS iOS-Test Orange OCS iOSUITests.debug.xcconfig */,
+				09BA15A78D6C2746BB8D9148 /* Pods-Test Orange OCS iOS-Test Orange OCS iOSUITests.release.xcconfig */,
+				933834743B4A0F3651E22D2C /* Pods-Test Orange OCS iOSTests.debug.xcconfig */,
+				F8B099EB2B97BFA513AC554D /* Pods-Test Orange OCS iOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4B7B6BA826EE8DEA00AB3A37 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4B67ACDF26EE4C720094AF95 /* ProgramCollectionViewCell.swift */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		4B7B6BA926EE8DFE00AB3A37 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B883C5526E634FC00197C79 /* ProgramViewController.swift */,
+				4BA6574326E7BCDD00D60747 /* ProgramDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4B7B6BAA26EE8E2500AB3A37 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				4B7B6BAB26EE8E3100AB3A37 /* CustomButton.swift */,
+				4B7B6BAD26EE8E3100AB3A37 /* CustomImageView.swift */,
+				4B7B6BAC26EE8E3100AB3A37 /* CustomView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		4B883C4526E634FC00197C79 = {
+			isa = PBXGroup;
+			children = (
+				4B883C5026E634FC00197C79 /* Test Orange OCS iOS */,
+				4B883C6726E634FD00197C79 /* Test Orange OCS iOSTests */,
+				4B883C7226E634FD00197C79 /* Test Orange OCS iOSUITests */,
+				4B883C4F26E634FC00197C79 /* Products */,
+				10969FB6AAB3350D55A07196 /* Pods */,
+				8BD622A904B8FA15C538E703 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B883C4F26E634FC00197C79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B883C4E26E634FC00197C79 /* Test Orange OCS iOS.app */,
+				4B883C6426E634FD00197C79 /* Test Orange OCS iOSTests.xctest */,
+				4B883C6F26E634FD00197C79 /* Test Orange OCS iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B883C5026E634FC00197C79 /* Test Orange OCS iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4BEC2FFF26ED6BD00094A201 /* Service */,
+				4BA6574226E7BC6C00D60747 /* ViewModel */,
+				4BA6574126E7BC6600D60747 /* View */,
+				4BA6574026E7BC5F00D60747 /* Model */,
+				4B883C5126E634FC00197C79 /* AppDelegate.swift */,
+				4B883C5326E634FC00197C79 /* SceneDelegate.swift */,
+				4B883C5726E634FC00197C79 /* Main.storyboard */,
+				4B883C5A26E634FD00197C79 /* Assets.xcassets */,
+				4B883C5C26E634FD00197C79 /* LaunchScreen.storyboard */,
+				4B883C5F26E634FD00197C79 /* Info.plist */,
+			);
+			path = "Test Orange OCS iOS";
+			sourceTree = "<group>";
+		};
+		4B883C6726E634FD00197C79 /* Test Orange OCS iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B883C6826E634FD00197C79 /* Test_Orange_OCS_iOSTests.swift */,
+				4B883C6A26E634FD00197C79 /* Info.plist */,
+				4B7F810926F8B0A80080B88D /* dataProgramTest.json */,
+				4B7F810D26F8B30D0080B88D /* dataProgramDetailsTest.json */,
+			);
+			path = "Test Orange OCS iOSTests";
+			sourceTree = "<group>";
+		};
+		4B883C7226E634FD00197C79 /* Test Orange OCS iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B883C7326E634FD00197C79 /* Test_Orange_OCS_iOSUITests.swift */,
+				4B883C7526E634FD00197C79 /* Info.plist */,
+			);
+			path = "Test Orange OCS iOSUITests";
+			sourceTree = "<group>";
+		};
+		4BA6574026E7BC5F00D60747 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4BEC2FFD26ED6A210094A201 /* Program.swift */,
+				4BEC300426ED74F90094A201 /* ProgramDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4BA6574126E7BC6600D60747 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B7B6BAA26EE8E2500AB3A37 /* Custom Views */,
+				4B7B6BA926EE8DFE00AB3A37 /* ViewController */,
+				4B7B6BA826EE8DEA00AB3A37 /* Custom Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4BA6574226E7BC6C00D60747 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4B8E1B5226EE9AC200D1E783 /* ProgramCellViewModel.swift */,
+				4B8E1B5426EE9CA600D1E783 /* ProgramViewModel.swift */,
+				4BF6401926F2278000E8279A /* ProgramDetailViewModel.swift */,
+				4B1703EC26F2A57200FF0982 /* ViewModelCallbackType.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4BEC2FFF26ED6BD00094A201 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4BEC300026ED6BE60094A201 /* OCSAPIService.swift */,
+				4BEC300226ED6CC40094A201 /* OCSAPIError.swift */,
+				4BFE1AE426F7F6DB0028D2C0 /* APIService.swift */,
+				4BFE1AE626F7F6F20028D2C0 /* OCSMockAPIService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8BD622A904B8FA15C538E703 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94FE8498078DABC1A338B753 /* Pods_Test_Orange_OCS_iOS.framework */,
+				B459533C5458FC62C4A46990 /* Pods_Test_Orange_OCS_iOS_Test_Orange_OCS_iOSUITests.framework */,
+				B6A25F433C0DECD1DD65EB3A /* Pods_Test_Orange_OCS_iOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B883C4D26E634FC00197C79 /* Test Orange OCS iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B883C7826E634FD00197C79 /* Build configuration list for PBXNativeTarget "Test Orange OCS iOS" */;
+			buildPhases = (
+				E26797FA2FB87384897C24FE /* [CP] Check Pods Manifest.lock */,
+				4B883C4A26E634FC00197C79 /* Sources */,
+				4B883C4B26E634FC00197C79 /* Frameworks */,
+				4B883C4C26E634FC00197C79 /* Resources */,
+				9F63194030A34264037C41BD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Test Orange OCS iOS";
+			productName = "Test Orange OCS iOS";
+			productReference = 4B883C4E26E634FC00197C79 /* Test Orange OCS iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B883C6326E634FD00197C79 /* Test Orange OCS iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B883C7B26E634FD00197C79 /* Build configuration list for PBXNativeTarget "Test Orange OCS iOSTests" */;
+			buildPhases = (
+				208032D5A16D26C40FB2AF01 /* [CP] Check Pods Manifest.lock */,
+				4B883C6026E634FD00197C79 /* Sources */,
+				4B883C6126E634FD00197C79 /* Frameworks */,
+				4B883C6226E634FD00197C79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B883C6626E634FD00197C79 /* PBXTargetDependency */,
+			);
+			name = "Test Orange OCS iOSTests";
+			productName = "Test Orange OCS iOSTests";
+			productReference = 4B883C6426E634FD00197C79 /* Test Orange OCS iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B883C6E26E634FD00197C79 /* Test Orange OCS iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B883C7E26E634FD00197C79 /* Build configuration list for PBXNativeTarget "Test Orange OCS iOSUITests" */;
+			buildPhases = (
+				C23D42BB7C3BC562636F2F8D /* [CP] Check Pods Manifest.lock */,
+				4B883C6B26E634FD00197C79 /* Sources */,
+				4B883C6C26E634FD00197C79 /* Frameworks */,
+				4B883C6D26E634FD00197C79 /* Resources */,
+				7C94C5629D001D3859AD8FC1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B883C7126E634FD00197C79 /* PBXTargetDependency */,
+			);
+			name = "Test Orange OCS iOSUITests";
+			productName = "Test Orange OCS iOSUITests";
+			productReference = 4B883C6F26E634FD00197C79 /* Test Orange OCS iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B883C4626E634FC00197C79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4B883C4D26E634FC00197C79 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					4B883C6326E634FD00197C79 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 4B883C4D26E634FC00197C79;
+					};
+					4B883C6E26E634FD00197C79 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 4B883C4D26E634FC00197C79;
+					};
+				};
+			};
+			buildConfigurationList = 4B883C4926E634FC00197C79 /* Build configuration list for PBXProject "Test Orange OCS iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B883C4526E634FC00197C79;
+			productRefGroup = 4B883C4F26E634FC00197C79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B883C4D26E634FC00197C79 /* Test Orange OCS iOS */,
+				4B883C6326E634FD00197C79 /* Test Orange OCS iOSTests */,
+				4B883C6E26E634FD00197C79 /* Test Orange OCS iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B883C4C26E634FC00197C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B883C5E26E634FD00197C79 /* LaunchScreen.storyboard in Resources */,
+				4B883C5B26E634FD00197C79 /* Assets.xcassets in Resources */,
+				4B7F810A26F8B0A80080B88D /* dataProgramTest.json in Resources */,
+				4B883C5926E634FC00197C79 /* Main.storyboard in Resources */,
+				4B7F810E26F8B30D0080B88D /* dataProgramDetailsTest.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B883C6226E634FD00197C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B7F810B26F8B0A80080B88D /* dataProgramTest.json in Resources */,
+				4B7F810F26F8B30D0080B88D /* dataProgramDetailsTest.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B883C6D26E634FD00197C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B7F810C26F8B0A80080B88D /* dataProgramTest.json in Resources */,
+				4B7F811026F8B30D0080B88D /* dataProgramDetailsTest.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		208032D5A16D26C40FB2AF01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test Orange OCS iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C94C5629D001D3859AD8FC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test Orange OCS iOS-Test Orange OCS iOSUITests/Pods-Test Orange OCS iOS-Test Orange OCS iOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test Orange OCS iOS-Test Orange OCS iOSUITests/Pods-Test Orange OCS iOS-Test Orange OCS iOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Test Orange OCS iOS-Test Orange OCS iOSUITests/Pods-Test Orange OCS iOS-Test Orange OCS iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F63194030A34264037C41BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test Orange OCS iOS/Pods-Test Orange OCS iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test Orange OCS iOS/Pods-Test Orange OCS iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Test Orange OCS iOS/Pods-Test Orange OCS iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C23D42BB7C3BC562636F2F8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test Orange OCS iOS-Test Orange OCS iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E26797FA2FB87384897C24FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test Orange OCS iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B883C4A26E634FC00197C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BFE1AE526F7F6DB0028D2C0 /* APIService.swift in Sources */,
+				4B1703ED26F2A57200FF0982 /* ViewModelCallbackType.swift in Sources */,
+				4BFE1AE726F7F6F20028D2C0 /* OCSMockAPIService.swift in Sources */,
+				4B67ACE026EE4C720094AF95 /* ProgramCollectionViewCell.swift in Sources */,
+				4B7B6BB026EE8E3100AB3A37 /* CustomImageView.swift in Sources */,
+				4BF6401A26F2278000E8279A /* ProgramDetailViewModel.swift in Sources */,
+				4BEC2FFE26ED6A210094A201 /* Program.swift in Sources */,
+				4B883C5626E634FC00197C79 /* ProgramViewController.swift in Sources */,
+				4B8E1B5326EE9AC200D1E783 /* ProgramCellViewModel.swift in Sources */,
+				4BA6574426E7BCDD00D60747 /* ProgramDetailViewController.swift in Sources */,
+				4B7B6BAE26EE8E3100AB3A37 /* CustomButton.swift in Sources */,
+				4B8E1B5526EE9CA600D1E783 /* ProgramViewModel.swift in Sources */,
+				4B883C5226E634FC00197C79 /* AppDelegate.swift in Sources */,
+				4B7B6BAF26EE8E3100AB3A37 /* CustomView.swift in Sources */,
+				4BEC300126ED6BE60094A201 /* OCSAPIService.swift in Sources */,
+				4BEC300526ED74F90094A201 /* ProgramDetail.swift in Sources */,
+				4B883C5426E634FC00197C79 /* SceneDelegate.swift in Sources */,
+				4BEC300326ED6CC40094A201 /* OCSAPIError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B883C6026E634FD00197C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B883C6926E634FD00197C79 /* Test_Orange_OCS_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B883C6B26E634FD00197C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B883C7426E634FD00197C79 /* Test_Orange_OCS_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B883C6626E634FD00197C79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B883C4D26E634FC00197C79 /* Test Orange OCS iOS */;
+			targetProxy = 4B883C6526E634FD00197C79 /* PBXContainerItemProxy */;
+		};
+		4B883C7126E634FD00197C79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B883C4D26E634FC00197C79 /* Test Orange OCS iOS */;
+			targetProxy = 4B883C7026E634FD00197C79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B883C5726E634FC00197C79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B883C5826E634FC00197C79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B883C5C26E634FD00197C79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B883C5D26E634FD00197C79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B883C7626E634FD00197C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B883C7726E634FD00197C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B883C7926E634FD00197C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8377399B498D4ABDC27C6411 /* Pods-Test Orange OCS iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LX6HN92HPR;
+				INFOPLIST_FILE = "Test Orange OCS iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kous92.Test-Orange-OCS-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B883C7A26E634FD00197C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC799C077BD932AB9E75C2F3 /* Pods-Test Orange OCS iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LX6HN92HPR;
+				INFOPLIST_FILE = "Test Orange OCS iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kous92.Test-Orange-OCS-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B883C7C26E634FD00197C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 933834743B4A0F3651E22D2C /* Pods-Test Orange OCS iOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LX6HN92HPR;
+				INFOPLIST_FILE = "Test Orange OCS iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kous92.Test-Orange-OCS-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test Orange OCS iOS.app/Test Orange OCS iOS";
+			};
+			name = Debug;
+		};
+		4B883C7D26E634FD00197C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8B099EB2B97BFA513AC554D /* Pods-Test Orange OCS iOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LX6HN92HPR;
+				INFOPLIST_FILE = "Test Orange OCS iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kous92.Test-Orange-OCS-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test Orange OCS iOS.app/Test Orange OCS iOS";
+			};
+			name = Release;
+		};
+		4B883C7F26E634FD00197C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F266556A4C2A6F159BF1E9ED /* Pods-Test Orange OCS iOS-Test Orange OCS iOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LX6HN92HPR;
+				INFOPLIST_FILE = "Test Orange OCS iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kous92.Test-Orange-OCS-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Test Orange OCS iOS";
+			};
+			name = Debug;
+		};
+		4B883C8026E634FD00197C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09BA15A78D6C2746BB8D9148 /* Pods-Test Orange OCS iOS-Test Orange OCS iOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LX6HN92HPR;
+				INFOPLIST_FILE = "Test Orange OCS iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kous92.Test-Orange-OCS-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Test Orange OCS iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B883C4926E634FC00197C79 /* Build configuration list for PBXProject "Test Orange OCS iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B883C7626E634FD00197C79 /* Debug */,
+				4B883C7726E634FD00197C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B883C7826E634FD00197C79 /* Build configuration list for PBXNativeTarget "Test Orange OCS iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B883C7926E634FD00197C79 /* Debug */,
+				4B883C7A26E634FD00197C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B883C7B26E634FD00197C79 /* Build configuration list for PBXNativeTarget "Test Orange OCS iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B883C7C26E634FD00197C79 /* Debug */,
+				4B883C7D26E634FD00197C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B883C7E26E634FD00197C79 /* Build configuration list for PBXNativeTarget "Test Orange OCS iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B883C7F26E634FD00197C79 /* Debug */,
+				4B883C8026E634FD00197C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B883C4626E634FC00197C79 /* Project object */;
+}

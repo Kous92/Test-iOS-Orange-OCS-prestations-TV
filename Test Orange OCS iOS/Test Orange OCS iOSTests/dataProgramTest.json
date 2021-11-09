@@ -1,0 +1,41 @@
+{
+    "template": "search",
+    "parentalrating": 1,
+    "title": "Recherche",
+    "offset": 1,
+    "limit": "none",
+    "next": null,
+    "previous": null,
+    "total": 1,
+    "count": 1,
+    "filter": null,
+    "sort": null,
+    "contents": [
+        {
+            "title": [
+                {
+                    "color": null,
+                    "type": "text",
+                    "value": "HITMAN"
+                }
+            ],
+            "subtitle": "action, thriller",
+            "subtitlefocus": [
+                "action, thriller"
+            ],
+            "highlefticon": null,
+            "highrighticon": null,
+            "lowrightinfo": null,
+            "imageurl": "/data_plateforme/program/35797/origin_hitmanxxxxxw0014384_2bvz3.jpg?size=small",
+            "fullscreenimageurl": "/data_plateforme/program/35797/origin_hitmanxxxxxw0014384_2bvz3.jpg?size=large",
+            "id": "HITMANXXXXXW0014384",
+            "detaillink": "/apps/v2/details/programme/HITMANXXXXXW0014384",
+            "duration": "PT1H28M55S",
+            "playinfoid": {
+                "hd": "8173B29F-E5FD-4AF0-2C6E-B48C3FACF486",
+                "sd": "8173B29F-E5FD-4AF0-2C6E-B48C3FACF486",
+                "uhd": null
+            }
+        }
+    ]
+}

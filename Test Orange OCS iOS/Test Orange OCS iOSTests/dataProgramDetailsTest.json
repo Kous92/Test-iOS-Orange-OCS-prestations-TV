@@ -1,0 +1,94 @@
+{
+    "template": "detail",
+    "parentalrating": 1,
+    "categoryID": 1,
+    "contents": {
+        "parentalrating": 2,
+        "isbookmarkable": true,
+        "isdownloadable": true,
+        "number": null,
+        "title": [
+            {
+                "type": "text",
+                "value": "HITMAN",
+                "color": null
+            }
+        ],
+        "duration": "PT1H28M55S",
+        "availability": [
+            {
+                "type": "picto",
+                "value": "clock",
+                "color": null
+            },
+            {
+                "type": "text",
+                "value": "dispo 7j",
+                "color": null
+            }
+        ],
+        "summary": "Costume sombre, crâne rasé et code barre tatoué sur la nuque, l'agent 47 est le plus mystérieux et redoutable des tueurs professionnels. Il exécute ses contrats sans jamais laisser la moindre trace jusqu'au jour où sa cible l'oblige à se découvrir. Policiers, agents secrets et tueurs à gages... cette fois-ci, 47 est seul contre tous ! Xavier Gens, passionné de jeux vidéos, avait à coeur de ne pas trahir les fans de la saga Hitman : « Le principal challenge était de respecter un maximum, que ce soit dans les costumes ou les décors, l'univers graphique et la direction artistique du jeu, tous deux très marqués ». La jeune actrice Olga Kurylenko en est déjà a sa seconde apparition dans une adaptation de jeu vidéo puisqu'elle tourna dans Max Payne, quelques mois à peine après Hitman.",
+        "highlefticon": null,
+        "highrighticon": null,
+        "subtitle": null,
+        "subtitlefocus": null,
+        "pitch": "Costume sombre, crâne rasé et code barre tatoué sur la nuque, l'agent 47 est le plus mystérieux et redoutable des tueurs professionnels. Il exécute ses contrats sans jamais laisser la moindre trace jusqu'au jour où sa cible l'oblige à se découvrir. Policiers, agents secrets et tueurs à gages... cette fois-ci, 47 est seul contre tous ! Xavier Gens, passionné de jeux vidéos, avait à coeur de ne pas trahir les fans de la saga Hitman : « Le principal challenge était de respecter un maximum, que ce soit dans les costumes ou les décors, l'univers graphique et la direction artistique du jeu, tous deux très marqués ». La jeune actrice Olga Kurylenko en est déjà a sa seconde apparition dans une adaptation de jeu vidéo puisqu'elle tourna dans Max Payne, quelques mois à peine après Hitman.",
+        "bannerinfo": [
+            {
+                "type": "text",
+                "value": "VM",
+                "color": "#9a9a9a"
+            },
+            {
+                "type": "picto",
+                "value": "csa2",
+                "color": null
+            },
+            {
+                "type": "text",
+                "value": "1h28",
+                "color": "#9a9a9a"
+            }
+        ],
+        "description": [
+            [
+                "film"
+            ],
+            [
+                "pays : Etats-Unis",
+                "réalisé par Xavier Gens"
+            ],
+            [
+                "année de production : 2007",
+                "genre : action, thriller"
+            ],
+            [
+                "Avec Timothy Olyphant (Agent 47), Olga Kurylenko (Nika Boronina), Dougray Scott (Mike Whittier), Ulrich Thomsen (Mikhail Belicoff), Robert Knepper (Yuri Marklov)"
+            ]
+        ],
+        "imageurl": "/data_plateforme/program/35797/origin_hitmanxxxxxw0014384_2bvz3.jpg?size=medium",
+        "fullscreenimageurl": "/data_plateforme/program/35797/origin_hitmanxxxxxw0014384_2bvz3.jpg?size=large",
+        "linearplanning": null,
+        "acontents": null,
+        "playinfoid": {
+            "sd": "8173B29F-E5FD-4AF0-2C6E-B48C3FACF486",
+            "hd": "8173B29F-E5FD-4AF0-2C6E-B48C3FACF486",
+            "uhd": null
+        },
+        "playinfo": {
+            "tokenurl": null,
+            "url": null
+        },
+        "id": "HITMANXXXXXW0014384",
+        "zonesinfo": {
+            "duration": 5335,
+            "endcreditsautocompleted": false,
+            "previouslytcin": null,
+            "previouslytcout": null,
+            "startcreditstcin": null,
+            "startcreditstcout": null,
+            "endcreditstcin": 5112,
+            "endcreditstcout": 5335
+        }
+    }
+}

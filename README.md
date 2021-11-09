@@ -76,11 +76,7 @@ Au niveau versionning, depuis le scandale raciste aux États-Unis lié au polici
 
 J'utilise aussi des frameworks tiers avec **Alamofire** pour la partie appels HTTP et **Kingfisher** pour la gestion asynchrone des images téléchargées avec le cache.
 
-<<<<<<< HEAD
 Concernant les tests, j'ai mis en place des tests unitaires (9 en tout) simulant des appels réseau par le biais du mocking et le tests des ViewModels. De même pour les tests UI. Les 9 tests unitaires couvrent **33,8%** du code, les tests UI couvrent **56,3%** du code, et exécutés ensemble, les tests unitaires et UI couvrent **61,8%** du code.
-=======
-Concernant les tests, j'ai mis en place des tests unitaires simulant des appels réseau par le biais du mocking et le tests des ViewModels. De même pour les tests UI.
->>>>>>> a2e0222110e4ab285a69fecd8d3a14ed7bdfdb40
 
 ### Difficultés rencontrées
 
@@ -88,12 +84,7 @@ Concernant les tests, j'ai mis en place des tests unitaires simulant des appels 
 - Auto Layout notamment pour les Size Classes afin d'adapter la vue pour l'iPhone et l'iPad.
 - L'API OCS qui est complexe pour la mise en place des modèles et particulièrement le modèle du programme en détail (pouvant varier si c'est un film, une série ou une émission).
 - Les liens des images par le biais du nom de domaine `https://api.ocs.fr/` qui renvoie le code 503. Une investigation par inspection du code HTML est nécessaire pour récupérer le nom de domaine (ici `https://statics.ocs.fr/`)qui permet de télécharger les images par les liens récupérés de la réponse JSON de l'API REST.
-<<<<<<< HEAD
 - La mise en place de la programmation réactive fonctionnelle avec **Combine** (framework officiel d'Apple). iOS 13 est donc requis pour utiliser **Combine**, **RxSwift** sinon. Avec **UIKit**, la mise en place de **Combine** est compliquée au début, n'ayant jamais utilisé ce framework (ni **RxSwift** par ailleurs). De plus, les ressources pour apprendre **Combine** et les appliquer avec **UIKit** sont très limitées (notamment pour le cas des **TableView** et **CollectionView**), la grande majorité des ressources sont orientées **SwiftUI** vu que **Combine** est adpaté.
 - La couverture du code par les tests (unitaires et UI) et la gestion des appels asynchrones (avec Combine) lors des tests.
-=======
-- La mise en place de la programmation réactive fonctionnelle avec **Combine** (framework officiel d'Apple). iOS 13 est donc requis pour utiliser **Combine**, **RxSwift** sinon. Avec **UIKit**, la mise en place de **Combine** est compliquée au début, n'ayant jamais utilisé ce framework (ni **RxSwift** par ailleurs), 
-- La couverture du code par les tests (unitaires et UI). Les ressources pour apprendre et appliquer **Combine** avec UIKit sont très limités sur Internet ce qui justifie la difficulté d'implémentation, les ressources sont majoritairement orientés **SwiftUI**.
->>>>>>> a2e0222110e4ab285a69fecd8d3a14ed7bdfdb40
 - La mise en place du lecteur **`AVPlayer`**. S'il faut tout personnaliser, c'est compliqué. J'ai donc utilisé un `AVPlayerViewController` pour la partie lecture vidéo par le biais d'HTTP Live Streaming.
 - Je ne dispose pas de compte Apple Developer payant (enregistré à l'Apple Developer Program).
